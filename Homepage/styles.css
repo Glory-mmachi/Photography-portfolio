@@ -13,6 +13,9 @@ h1 {
 
 .navbar-brand {
   font-family: 'Tangerine', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 20px;
 }
 
 .jumbotron {
