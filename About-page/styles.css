@@ -10,6 +10,12 @@ h1 {
   padding: 20px;
   margin: 20px;
 }
+
+h2 {
+  color: black;
+  font-family: bold cursive;
+}
+
 .heading-1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
