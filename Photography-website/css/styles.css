@@ -31,12 +31,13 @@ h1 {
     border-color: black;
     border-radius: 30px;
     margin: 15px;
-}
-.btn:hover{
+  }
+  .btn:hover{
     cursor: pointer;
     background-color: transparent;
     color: black;
     border-color: black;
+    animation: shake 1.5s ease infinite;
 }
 
 .carousel {
@@ -68,8 +69,4 @@ h1 {
     100%{
       transform: translateX(5px);
     }
-  }
-
-  .btn:hover {
-    animation: shake 1.2s ease infinite;
   }

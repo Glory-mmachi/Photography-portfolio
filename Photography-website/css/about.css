@@ -24,12 +24,14 @@ h2 {
   margin-left: 100px;
 }
 
+
 .navbar-brand {
-  font-family: "Tangerine", cursive;
+  font-family: 'Tangerine', cursive;
   font-size: 30px;
   font-weight: bolder;
   margin-left: 20px;
 }
+
 
 .jumbotron {
   font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +52,7 @@ h2 {
   background-color: transparent;
   color: black;
   border-color: black;
+  animation: shake 1.5s ease infinite;
 }
 
 .carousel {
@@ -80,10 +83,6 @@ h2 {
   100% {
     transform: translateX(5px);
   }
-}
-
-.btn:hover {
-  animation: shake 1.2s ease infinite;
 }
 
 .container {

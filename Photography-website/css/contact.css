@@ -15,6 +15,7 @@ body {
   font-weight: bolder;
   margin-left: 20px;
 }
+
 .logo {
   font-family: "Tangerine", cursive;
   font-size: 30px;
@@ -33,15 +34,15 @@ body {
 }
 
 .contact .content {
-  max width: 800px;
+  max-width: 800px;
   text-align: center;
   margin: 50px auto;
 }
 
-.contact .content h2{
-font-size: 36px;
-font-weight: 500;
-color:black
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: black;
 }
 
 contact-box {
@@ -75,7 +76,7 @@ h2 {
   margin-left: 10px;
   margin-bottom: 10px;
   border-spacing: 10px;
-  colour: grey;
+  color: grey;
 }
 
 h3 {
@@ -86,7 +87,7 @@ h3 {
 .contact .content p {
   margin-bottom: 20px;
   font-weight: 300;
-  color: grey
+  color: grey;
 }
 
 .input-row {
@@ -94,23 +95,43 @@ h3 {
   justify-content: space-between;
   margin-bottom: 20px;
 }
+.btn-primary {
+  background-color: rgb(34, 33, 33);
+  font-size: 18px;
+  border-color: black;
+  border-radius: 30px;
+  margin: 15px;
+  padding-inline: 30px;
+  outline: none;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  border-color: black;
+  animation: shake 1.5s ease 1;
+}
 
-.input-group{
+.input-group {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  width: 80%
+  width: 80%;
   flex-direction: colulmn;
+  color: gray;
+}
+.right {
+  padding-left: 20px;
 }
 
 .input-row .input-group {
   flex-basis: 60%;
   width: 70%;
-  display: flex
+  display: flex;
   flex-direction: colulmn;
 }
 
-.input-row .input-group .box{
+.input-row .input-group .box {
   position: relative;
   padding: 20px 0;
   display: flex;
@@ -122,6 +143,7 @@ input {
   border-bottom: 1px solid grey;
   outline: none;
   padding: 5px;
+  border-end-end-radius: 7px;
 }
 
 textarea {
@@ -130,24 +152,13 @@ textarea {
   outline: none;
   padding: 10px;
   box-sizing: border-box;
+  border-end-end-radius: 7px;
 }
 
 label {
   margin-bottom: 6px;
   display: block;
   color: black;
-}
-
-button {
-  background: white;
-  width: 300px;
-  border: none;
-  outline: none;
-  color: black;
-  height: 50px;
-  border-radius: 30px;
-  margin-top: 20px;
-  box-shadow: 0px 5px 15px 0px rgba(grey, black, lightgrey, white);
 }
 
 .contact-left h2 {
@@ -167,4 +178,22 @@ tr td:first-child {
 
 tr td {
   padding-top: 20px;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
 }

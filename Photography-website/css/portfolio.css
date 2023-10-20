@@ -9,10 +9,14 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'Tangerine', cursive;
-  font-size: 40px;
+  font-family: "Tangerine", cursive;
+  /* font-size: 30px; */
+  font-weight: bolder;
+  margin-left: 20px;
 }
-
+h1 {
+  /* padding-top: 10rem; */
+}
 .container img {
   padding: 5px 0;
   width: 100%;
@@ -20,8 +24,3 @@ body {
   object-position: center;
   border-radius: 10px;
 }
-
-  
-
-
-
