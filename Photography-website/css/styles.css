@@ -55,7 +55,7 @@ h1 {
     object-position: center;
 }
 
-/* Adding animation to the "Learn More" button when hovered over */
+/* Adding animation to the "View Portfolio" button when hovered over */
 @keyframes shake {
     0%{
       transform: translateX(0);
